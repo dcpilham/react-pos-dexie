@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import { ProductListView } from './components/product_list/product_list_view';
 
 function App() {
   return (
     <div className="App">
-      <ProductList/>
+      <ProductListView/>
+      {/* <CartList/> */}
     </div>
   );
 }
